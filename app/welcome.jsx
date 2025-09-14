@@ -1,11 +1,10 @@
-import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
-import React from 'react';
-import ScreenWrapper from '../components/ScreenWrapper';
-import { StatusBar } from 'expo-status-bar';
-import { hp, wp } from '../helper/common';
-import { theme } from '../constants/theme';
-import Button from '../components/Button';
 import { useRouter } from 'expo-router';
+import { StatusBar } from 'expo-status-bar';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import Button from '../components/Button';
+import ScreenWrapper from '../components/ScreenWrapper';
+import { theme } from '../constants/theme';
+import { hp, wp } from '../helper/common';
 const Welcome = () => {
     const router = useRouter();
   return (
@@ -30,7 +29,7 @@ const Welcome = () => {
           <Button
             title="Getting Started"
             buttonStyle={{ marginHorizontal: wp(3) }}
-            onPress={() => router.push('/signup')}
+            onPress={() => router.push('/signUp')}
           />
           
           <View style={styles.bottomTextContainer}>

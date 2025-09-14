@@ -17,11 +17,6 @@ export const theme = {
     roseLight: '#C084FC',
   },
 
-  gradients: {
-    primary: ['#6366F1', '#3B82F6'],  // indigo → blue
-    accent: ['#4F46E5', '#C7D2FE'],   // dark indigo → light indigo
-  },
-
   fonts: {
     medium: '500',
     semibold: '600',
